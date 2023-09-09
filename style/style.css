@@ -1,0 +1,81 @@
+@font-face {
+    font-family: pacifico;
+    src: url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    color: cornflowerblue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+
+a:hover {
+    color: darkgreen
+}
+
+a:active {
+    color: rgb(230, 22, 22)
+}
+
+
+.h1 {
+    color: #222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.remain_paragraphs {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7d7987;
+}
+
+.h2_main {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 600px;
+    align-items: flex-start;
+}
+
+.field {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+div {
+    margin: 15px;
+    padding: 15px;
+    font-family: pacifico;
+    font-size: 22;
+}

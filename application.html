@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <nav>
-        <li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <nav class="menu">
             <a href="index.html">Главная</a>
-        </li>
-        <li>
+            |
             <a href="info/about.html">Обо мне</a>
-        </li>
-        <li>
+            |
             <a href="application.html">Оставить заявку</a>
-        </li>
-        <h1>Оставить заявку</h1>
+        </nav>
+        <h1 class="h1">Оставить заявку</h1>
         <form action="#">
-            Username <input type="text" placeholder="your name"><br>
-            Password <input type="password" placeholder="create a password" ><br>
-            Email <input type="email" placeholder="your e-mail"><br>
-            Birthday <input type="date">
-            <button type="submit">send</button>
-            <button type="reset">delete</button>
+            Username
+            <input
+                class="field"
+                type="text"
+                placeholder="your name"
+                required
+            >
+            <br>
+            Password
+            <input
+                class="field"
+                type="password"
+                placeholder="create a password"
+                required
+            >
+            <br>
+            Email
+            <input
+                class="field"
+                type="email"
+                placeholder="your e-mail"
+                required
+            >
+            <br>
+            Birthday
+            <input class="field" type="date">
+            <button class="button" type="submit">send</button>
+            <button class="button" type="reset">reset</button>
         </form>
-    
-    </nav>
-</body>
+    </body>
 </html>
